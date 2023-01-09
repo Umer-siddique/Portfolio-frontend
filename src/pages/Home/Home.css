@@ -1,0 +1,81 @@
+.home-section{
+    /* border: 1px solid red; */
+    max-width: 75%;
+    margin: 3.2rem auto;
+    display: flex;
+}
+.left-section{
+    /* border: 1px solid red; */
+    flex: 0.5;
+    /* margin-top: 60px; */
+    /* margin: 80px 0; */
+    padding: 70px 0;
+}
+.left-section h1{
+    color: #777;
+    font-size: 3rem;
+}
+
+.left-section .heading-withIcons{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.heading-withIcons>.icons-container{
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* height: 100%; */
+    margin-left: 5%;
+    width: 100%;
+}
+.heading-withIcons >.icons-container>.icon{
+   border: 2px solid var(--pale-pink2);
+   border-radius: 50%;
+   font-size: 40px;
+   padding: 5px;
+   background: var(--coral);
+   color: #ffffff;
+   cursor: pointer;
+   margin-right: 25px;
+}
+
+.left-section p{
+    color: #777;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.left-section h2{
+    color: var(--coral);
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.left-section a{
+    text-decoration: none;
+}
+.left-section a>Button{
+    border: 1px solid var(--pale-pink2);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 20px;
+    background-color: var(--coral);
+    text-transform: none;
+    /* margin-top: 20px; */
+}
+.left-section a>Button:hover{
+    background-color: var(--coral);
+}
+.right-section{
+    /* border: 1px solid blue; */
+    width: 50%;
+    flex: 0.5;
+    height: 500px;
+}
+/* .home-lottie{
+  width: 100%;
+  height: 100%;
+} */
